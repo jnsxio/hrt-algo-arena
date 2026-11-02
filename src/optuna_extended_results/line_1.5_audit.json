@@ -1,0 +1,32 @@
+{
+  "path": "src/predictions_optuna_line_1.5.csv",
+  "t": 1.5,
+  "parameters": {
+    "vol_power": 1.5396498030372114,
+    "liquidity_power": -1.4822461953354713,
+    "lower": 0.14443390657368366,
+    "upper": 12.171037583411735,
+    "offset": 0.0
+  },
+  "local_validation": [
+    {
+      "year": 2014,
+      "sharpe": 12.028119928791986,
+      "density_sharpe": 6.644208135608568
+    },
+    {
+      "year": 2015,
+      "sharpe": 11.3809761783279,
+      "density_sharpe": 5.326651295082635
+    },
+    {
+      "year": 2016,
+      "sharpe": 11.0230336108757,
+      "density_sharpe": 6.270902887255552
+    }
+  ],
+  "rows": 27864,
+  "sha256": "3ae4d38ca6ea6243fadd13552401ac6add6ca77da9e315ebc9220dd0c5cc5352",
+  "uploaded": false,
+  "check_year_previously_seen": true
+}

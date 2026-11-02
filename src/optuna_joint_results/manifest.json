@@ -1,0 +1,16 @@
+{
+  "path": "src/predictions_optuna_joint.csv",
+  "rows": 27864,
+  "sha256": "32a7138c29caf09e292ea076663921f7663c5d12486c953c795380a7fe9cfe7f",
+  "uploaded": false,
+  "parameters": {
+    "alpha": 161.44356826769274,
+    "fb_scale": 0.1,
+    "return_strength": 0.25,
+    "vol_power": 1.3677223221027366,
+    "liquidity_power": -1.3328785383682131,
+    "lower": 0.18118435275035127,
+    "upper": 10.256106928655198,
+    "offset": -9.244791432564211e-05
+  }
+}

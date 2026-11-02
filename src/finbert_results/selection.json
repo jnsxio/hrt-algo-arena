@@ -1,0 +1,22 @@
+{
+  "mode": "finbert",
+  "selected_model": "finbert_probabilities_scale_0.1",
+  "spec": [
+    "probabilities",
+    0.1
+  ],
+  "selection_mean_sharpes": {
+    "finbert_probabilities_scale_0.1": 7.59296432715572,
+    "finbert_probabilities_scale_1": 7.570854352153125,
+    "finbert_probabilities_and_returns_scale_0.1": 7.4375632831419,
+    "finbert_probabilities_and_returns_scale_1": 7.380224499296545
+  },
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "oos_accessed": false,
+  "submission_written": false
+}

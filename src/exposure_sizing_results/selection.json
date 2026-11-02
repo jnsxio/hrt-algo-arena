@@ -1,0 +1,70 @@
+{
+  "selected_model": "inverse_vol_lower_liquidity",
+  "spec": {
+    "vol_power": 1.0,
+    "liquidity_power": -0.5
+  },
+  "selection_mean_sharpes": {
+    "inverse_vol_lower_liquidity": 10.087019220950179,
+    "favor_lower_liquidity": 9.192785157291748,
+    "inverse_vol_sqrt": 7.788115051129175,
+    "unchanged": 7.59296432715572,
+    "inverse_vol": 7.508669573894551,
+    "company_historical_risk": 7.308399399142061,
+    "inverse_variance": 6.621773056114714,
+    "favor_higher_liquidity": 5.554340838084692
+  },
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "check_models": [
+    "unchanged",
+    "inverse_vol_lower_liquidity",
+    "inverse_vol_sqrt",
+    "favor_lower_liquidity",
+    "company_historical_risk"
+  ],
+  "all_candidate_specs": {
+    "unchanged": {
+      "vol_power": 0.0,
+      "liquidity_power": 0.0
+    },
+    "inverse_vol_sqrt": {
+      "vol_power": 0.5,
+      "liquidity_power": 0.0
+    },
+    "inverse_vol": {
+      "vol_power": 1.0,
+      "liquidity_power": 0.0
+    },
+    "inverse_variance": {
+      "vol_power": 2.0,
+      "liquidity_power": 0.0
+    },
+    "favor_lower_liquidity": {
+      "vol_power": 0.0,
+      "liquidity_power": -0.5
+    },
+    "favor_higher_liquidity": {
+      "vol_power": 0.0,
+      "liquidity_power": 0.5
+    },
+    "inverse_vol_lower_liquidity": {
+      "vol_power": 1.0,
+      "liquidity_power": -0.5
+    },
+    "company_historical_risk": {
+      "company_risk": true
+    }
+  },
+  "multiplier_bounds": [
+    0.25,
+    4.0
+  ],
+  "oos_accessed": false,
+  "submission_written": false,
+  "original_csv_sha256": "9f82f10248481ab60596b345cd80ac5481a2d88056f5e52cf5c071af0a724c06"
+}

@@ -1,0 +1,55 @@
+{
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "selection_metric": "mean yearly daily-PnL Sharpe",
+  "check_year": 2016,
+  "check_year_previously_seen": true,
+  "best_text": "words13_a100",
+  "best_extension": "interactions_0.25",
+  "oos_accessed": false,
+  "submission_written": false,
+  "alphas": [
+    30.0,
+    100.0,
+    300.0,
+    1000.0
+  ],
+  "text_configs": {
+    "words12": [
+      1,
+      2
+    ],
+    "words13": [
+      1,
+      3
+    ],
+    "words1": [
+      1,
+      1
+    ]
+  },
+  "2016_text_unseen_headlines": {
+    "sharpe": 7.387586758946246,
+    "mse": 0.001979252231838398,
+    "direction_accuracy": 0.5217293111792225,
+    "days": 260
+  },
+  "best_mr_blend": "blend_day_0.1",
+  "best_interaction": "interactions_0.25",
+  "2016_sharpe_difference_week_bootstrap_95pct": {
+    "text_vs_original": [
+      -0.3074078094724498,
+      0.25371756275855634
+    ],
+    "interactions_vs_original": [
+      -0.04762234188240644,
+      0.7932757255142177
+    ],
+    "interactions_vs_tuned_text": [
+      0.0417620361789038,
+      0.7816106036279237
+    ]
+  }
+}

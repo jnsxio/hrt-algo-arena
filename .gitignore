@@ -1,0 +1,16 @@
+# Competition data and HRT starter materials (not redistributable)
+src/news.py
+src/algo_arena.ipynb
+*.pkl
+*.sqlite
+*.joblib
+
+# Generated submissions (contain competition headline IDs)
+src/predictions_*.csv
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store

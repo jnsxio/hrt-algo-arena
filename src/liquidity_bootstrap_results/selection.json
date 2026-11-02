@@ -1,0 +1,36 @@
+{
+  "best_model": "with_returns_price_ge_5",
+  "best_liquidity_cutoff_with_returns": "with_returns_trade_ge_0",
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "cutoffs": [
+    0,
+    2500,
+    5000,
+    10000
+  ],
+  "oos_accessed": false,
+  "submission_written": false,
+  "selection_mean_sharpes": {
+    "with_returns_price_ge_5": 6.947776472718583,
+    "with_returns_trade_ge_0": 6.909930742885992,
+    "text_price_ge_5": 6.813264029606801,
+    "text_trade_ge_0": 6.73241781553018,
+    "with_returns_train_and_trade_ge_2500": 6.111791349996599,
+    "text_train_and_trade_ge_2500": 6.057917658407034,
+    "with_returns_trade_ge_2500": 5.864114578579116,
+    "text_trade_ge_2500": 5.597617792367741,
+    "with_returns_trade_ge_5000": 4.07367810069349,
+    "with_returns_train_and_trade_ge_5000": 4.029200193639378,
+    "text_trade_ge_5000": 3.7727928960498653,
+    "text_train_and_trade_ge_5000": 3.6387029625864153,
+    "with_returns_trade_ge_10000": 3.3590835147371942,
+    "with_returns_train_and_trade_ge_10000": 3.349225893243652,
+    "text_trade_ge_10000": 2.9696417080299513,
+    "text_train_and_trade_ge_10000": 2.379908378764194
+  }
+}

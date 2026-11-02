@@ -1,0 +1,29 @@
+{
+  "caps": [
+    null,
+    0.001,
+    0.0025,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "best_overall": "uncapped",
+  "best_finite_cap": 0.01,
+  "selection_mean_sharpes": {
+    "cap_0.01": 6.909930742885992,
+    "cap_0.02": 6.909930742885992,
+    "uncapped": 6.909930742885992,
+    "cap_0.005": 6.905099890659683,
+    "cap_0.0025": 6.532047250182613,
+    "cap_0.001": 5.775315891159351
+  },
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "oos_accessed": false,
+  "submission_written": false,
+  "model": "words13, Ridge alpha=100, past-return interaction strength=.25"
+}

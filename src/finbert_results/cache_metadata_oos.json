@@ -1,0 +1,18 @@
+{
+  "device": "mps",
+  "label_order": [
+    "positive",
+    "negative",
+    "neutral"
+  ],
+  "unique_headlines": 27768,
+  "cached_headlines": 27768,
+  "complete": true,
+  "max_token_length": 128,
+  "at_token_limit_this_run": 0,
+  "batch_size": 128,
+  "torch": "2.14.1",
+  "dataset": "oos",
+  "oos_accessed": true,
+  "external_inference": false
+}

@@ -1,0 +1,14 @@
+{
+  "optuna_extended": {
+    "path": "src/predictions_optuna_extended.csv",
+    "rows": 27864,
+    "sha256": "4457e20fa5ba1f32cd616dceb4d23e4494cc6d33baf5868d7a48d636a0f2e548",
+    "uploaded": false
+  },
+  "optuna_midpoint": {
+    "path": "src/predictions_optuna_midpoint.csv",
+    "rows": 27864,
+    "sha256": "8400b9dc625f700e7b16ca42b869b601f00989094f17dbb330417a56fbcc4905",
+    "uploaded": false
+  }
+}

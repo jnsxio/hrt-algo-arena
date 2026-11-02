@@ -1,0 +1,30 @@
+{
+  "liquidity_only": {
+    "vol_power": 1.0,
+    "liquidity_power": -1.321497463556981,
+    "lower": 0.25,
+    "upper": 4.0,
+    "offset": 0.0
+  },
+  "volatility_only": {
+    "vol_power": 1.359766535358141,
+    "liquidity_power": -1.0,
+    "lower": 0.25,
+    "upper": 4.0,
+    "offset": 0.0
+  },
+  "cap_only": {
+    "vol_power": 1.0,
+    "liquidity_power": -1.0,
+    "lower": 0.17962260438245578,
+    "upper": 9.447358388941156,
+    "offset": 0.0
+  },
+  "optuna_cap4": {
+    "vol_power": 1.359766535358141,
+    "liquidity_power": -1.321497463556981,
+    "lower": 0.25,
+    "upper": 4.0,
+    "offset": 0.0
+  }
+}

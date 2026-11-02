@@ -1,0 +1,44 @@
+{
+  "optuna_sizing": {
+    "path": "src/predictions_optuna_sizing.csv",
+    "sha256": "b23cbd8309099f84183a0a1a9372a821891f28ef505c5a6389a3ce7a10abfac5",
+    "parameters": {
+      "vol_power": 1.3863572460036058,
+      "liquidity_power": -1.2894099004100532,
+      "lower": 0.17492863547718884,
+      "upper": 9.39126880367376,
+      "offset": 0.0
+    },
+    "rows": 27864,
+    "changed_sign_fraction": 0.0,
+    "uploaded": false
+  },
+  "optuna_sizing_offset": {
+    "path": "src/predictions_optuna_sizing_offset.csv",
+    "sha256": "b23cbd8309099f84183a0a1a9372a821891f28ef505c5a6389a3ce7a10abfac5",
+    "parameters": {
+      "vol_power": 1.3863572460036058,
+      "liquidity_power": -1.2894099004100532,
+      "lower": 0.17492863547718884,
+      "upper": 9.39126880367376,
+      "offset": 0.0
+    },
+    "rows": 27864,
+    "changed_sign_fraction": 0.0,
+    "uploaded": false
+  },
+  "offset_only_probe": {
+    "path": "src/predictions_offset_only_probe.csv",
+    "sha256": "e25dee1622903a14de36aa011602fc66b50f5ba1dc1476ccfbbcb13a4d0f79b3",
+    "parameters": {
+      "vol_power": 1.0,
+      "liquidity_power": -1.0,
+      "lower": 0.25,
+      "upper": 4.0,
+      "offset": 0.0
+    },
+    "rows": 27864,
+    "changed_sign_fraction": 0.0,
+    "uploaded": false
+  }
+}

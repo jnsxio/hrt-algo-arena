@@ -1,0 +1,45 @@
+{
+  "csv": "src/predictions_ridge_finbert.csv",
+  "sha256": "9f82f10248481ab60596b345cd80ac5481a2d88056f5e52cf5c071af0a724c06",
+  "training_rows": 136594,
+  "training_years": [
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "prediction_rows": 27864,
+  "prediction_years": [
+    2017,
+    2018,
+    2019
+  ],
+  "selected_model": "finbert_probabilities_scale_0.1",
+  "ridge_alpha": 100.0,
+  "word_ngram_range": [
+    1,
+    3
+  ],
+  "past_return_interaction_strength": 0.25,
+  "finbert_feature_scale": 0.1,
+  "finbert_model": {
+    "model": "ProsusAI/finbert",
+    "revision": "4556d13015211d73dccd3fdd39d39232506f3e43"
+  },
+  "volatility_floor_from_training": 0.007853444878374692,
+  "prediction_clipping": false,
+  "liquidity_filter": false,
+  "weight_multiplied_into_prediction": false,
+  "csv_round_trip_verified": true,
+  "headline_ids_and_order_verified": true,
+  "research_reproduction_max_abs_prediction_difference": 4.895942765786865e-11,
+  "prediction_quantiles": {
+    "0.0": -0.012084883175416363,
+    "0.01": -0.00605889306546706,
+    "0.5": 0.0008430897980045872,
+    "0.99": 0.005818442323123409,
+    "1.0": 0.012849483800490839
+  },
+  "positive_fraction": 0.6652670111972437,
+  "uploaded": false
+}

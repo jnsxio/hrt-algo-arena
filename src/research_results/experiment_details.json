@@ -1,0 +1,30 @@
+{
+  "rows_by_year": {
+    "2013": 33125,
+    "2014": 34656,
+    "2015": 37442,
+    "2016": 31371
+  },
+  "selection_year": 2015,
+  "check_year": 2016,
+  "oos_accessed": false,
+  "features": [
+    "returns_past_hour",
+    "returns_past_day"
+  ],
+  "duplicate_checks": {
+    "2015": {
+      "validation_headline_seen_in_train_fraction": 0.014181934725709097,
+      "headline_id_overlap": 0
+    },
+    "2016": {
+      "validation_headline_seen_in_train_fraction": 0.011985591788594561,
+      "headline_id_overlap": 0
+    }
+  },
+  "selected_alphas": {
+    "text": 100.0,
+    "past_returns": 100.0,
+    "text_plus_past_returns": 100.0
+  }
+}

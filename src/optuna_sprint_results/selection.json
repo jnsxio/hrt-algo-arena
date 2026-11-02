@@ -1,0 +1,85 @@
+{
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "density": 35.86100386100386,
+  "studies": {
+    "sizing": {
+      "parameters": {
+        "vol_power": 1.3863572460036058,
+        "liquidity_power": -1.2894099004100532,
+        "lower": 0.17492863547718884,
+        "upper": 9.39126880367376,
+        "offset": 0.0
+      },
+      "objective": 5.919007782618045,
+      "trials": 120,
+      "validation": {
+        "full_sharpes": [
+          11.880983442332735,
+          11.699119285557327
+        ],
+        "density_sharpes": [
+          6.524521144783904,
+          5.471454427973714
+        ]
+      }
+    },
+    "sizing_offset": {
+      "parameters": {
+        "vol_power": 1.3863572460036058,
+        "liquidity_power": -1.2894099004100532,
+        "lower": 0.17492863547718884,
+        "upper": 9.39126880367376,
+        "offset": 0.0
+      },
+      "objective": 5.919007782618045,
+      "trials": 120,
+      "validation": {
+        "full_sharpes": [
+          11.880983442332735,
+          11.699119285557327
+        ],
+        "density_sharpes": [
+          6.524521144783904,
+          5.471454427973714
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "incumbent": {
+      "vol_power": 1.0,
+      "liquidity_power": -1.0,
+      "lower": 0.25,
+      "upper": 4.0,
+      "offset": 0.0
+    },
+    "optuna_sizing": {
+      "vol_power": 1.3863572460036058,
+      "liquidity_power": -1.2894099004100532,
+      "lower": 0.17492863547718884,
+      "upper": 9.39126880367376,
+      "offset": 0.0
+    },
+    "optuna_sizing_offset": {
+      "vol_power": 1.3863572460036058,
+      "liquidity_power": -1.2894099004100532,
+      "lower": 0.17492863547718884,
+      "upper": 9.39126880367376,
+      "offset": 0.0
+    },
+    "offset_only_probe": {
+      "vol_power": 1.0,
+      "liquidity_power": -1.0,
+      "lower": 0.25,
+      "upper": 4.0,
+      "offset": 0.0
+    }
+  },
+  "uploaded": false,
+  "leaderboard_reference_reported_by_user": 4.838
+}

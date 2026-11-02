@@ -1,0 +1,24 @@
+{
+  "mode": "elasticnet",
+  "selected_model": "en_l2_30_l1_1e-06",
+  "spec": [
+    30.0,
+    1e-06
+  ],
+  "selection_mean_sharpes": {
+    "en_l2_30_l1_1e-06": 6.664676452826588,
+    "en_l2_100_l1_1e-06": 6.592329245310564,
+    "en_l2_30_l1_1e-05": 4.320032224270811,
+    "en_l2_100_l1_1e-05": 3.635397106719486,
+    "en_l2_30_l1_3e-05": 1.1350705087254591,
+    "en_l2_100_l1_3e-05": 0.8330130847219929
+  },
+  "selection_years": [
+    2014,
+    2015
+  ],
+  "check_year": 2016,
+  "check_previously_seen": true,
+  "oos_accessed": false,
+  "submission_written": false
+}
