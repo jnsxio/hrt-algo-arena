@@ -109,7 +109,8 @@ FinBERT runs locally (CPU or Apple MPS); no headline is sent to an external serv
 ## Team
 
 - Jens Cancio ([@jnsxio](https://github.com/jnsxio))
-- TODO: teammate names
+- Matteo Giori
+- Nolan Genaine
 
 ## License
 
